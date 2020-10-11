@@ -1,0 +1,124 @@
+.start-paragraph {
+    
+    margin: auto;
+    margin-left: 400px;
+    background-image: url("/Users/Taras/Desktop/new-web/imagges/Rectangle\ 34.svg");
+    width: 97.5%;
+    height: 560px;
+    border-radius: 50px;
+}
+
+.start-paragraph h3 {
+    width: 475px;
+    height: 100px;
+    position: relative;
+    bottom: 435px;
+    left: 550px;
+    font-size: 40px;
+    color: #212353;
+    line-height: 120%;
+   
+}
+
+.start-paragraph p {
+    position: relative;
+    left: 550px;
+    bottom: 400px;
+    width: 474px;
+    height: 170px;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+@media (max-width: 1000px) {
+ .start-paragraph{
+    width: 95%;
+    border-radius: 50px;
+ }
+    .start-paragraph p {
+       font-weight: 300;
+       font-size: 18px;
+       margin-left: -14%;
+       margin-top: 20px;
+   }
+   .start-paragraph h3{
+       margin-top: 80px;
+    margin-left: -14%;
+       font-weight: 400;
+       font-size:40px;
+   }
+   .start-paragraph img{
+       margin-top:5%;
+       margin-right: 10%;
+       width: 40%;
+   }
+
+}
+
+@media (max-width: 880px) {
+    .start-paragraph{
+        width: 95%;
+        height: 360px;
+        border-radius: 50px;
+     }
+        .start-paragraph p {
+           font-weight: 300;
+           font-size: 16px;
+           margin-left: -27%;
+           margin-top: -10%;
+       }
+       .start-paragraph h3{
+        margin-top: 25%;
+        margin-left: -27%;
+           font-weight: 600;
+           font-size:30px;
+       }
+       .start-paragraph img{
+           margin-top:5%;
+           margin-right: 10%;
+           width: 30%;
+       }
+}
+@media (max-width: 800px) {
+    .start-paragraph{
+     margin-top: 100px;
+      margin-left: 525px;
+        
+   }
+    .start-paragraph p {
+        width: 412px;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: -260px;
+
+}
+    .start-paragraph h3{
+    margin-top: 180px;
+    margin-left:-260px;
+    margin-bottom: -40px;
+    font-weight: 600;
+    font-size:30px;
+}
+    .start-paragraph img{
+     
+     }
+}
+@media (min-width:1920px) {
+   .first-paragraph-text {
+       font-size: 30px;
+       line-height: 45px;
+   }
+
+   .first-paragraph-header {
+       font-size: 45px;
+       line-height: 60px;
+   }
+
+   .first-paragraph a {
+       font-size: 23px;
+       width: 220px;
+       height: 70px;
+   }
+}
+  

@@ -1,0 +1,122 @@
+.save_data {
+    margin-left: 400px;
+    margin-top: 80px;
+  
+}
+.save_data img{
+    position: relative;
+    left: 400px;
+    top:-270px;
+
+}
+.save_data h1 {
+    color: #212353;
+    font-size: 80px;
+    line-height: 110%;
+}
+
+.save_data p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    color: #4B5D68;
+}
+
+.save_data button {
+    position: relative;
+    top:-450px;
+    margin-top: 66px;
+    background-color: #9C69E2;
+    width: 170px;
+    height: 60px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-weight: 900;
+    border-radius: 50px;
+    border-color: #9C69E2;
+}
+@media (max-width: 1000px) {
+ 
+     .save_data p {
+        font-weight: 300;
+        font-size: 95%;
+    }
+    .save_data h1{
+        font-weight: 600;
+        font-size:50px;
+    }
+    .save_data img{
+        margin-top:10%;
+        margin-left: 10%;
+        width: 90%;
+    }
+    .save_data button{
+        display: none;
+
+    }
+}
+
+@media (max-width: 880px) {
+.save_data{
+    
+    margin-left: 400px;
+    margin-bottom: -15%;
+ 
+}
+    .save_data img{
+        margin-top:10%;
+        margin-left: -90%;
+        z-index: -1;
+        
+    }
+    .save_data p {
+        margin-left: 125%;
+        width: 600px;
+        line-height: 28px;
+        margin-top: 12%;
+    }
+
+    .save_data h1 {
+        margin-left: 125%;
+        font-size: 36px;
+        width: 600px;
+        line-height: 35px;
+    }
+}
+@media (max-width: 800px) {
+    .save_data{
+        
+        margin-bottom: 12%;
+        text-align: center;
+    }
+    .save_data p{
+        margin-left: 200px;
+    }
+    .save_data h1{
+        margin-left: 200px;
+    }
+    .save_data img{
+        
+       display: none;
+     
+    }
+}
+@media (min-width:1920px) {
+    .first-paragraph-text {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .first-paragraph-header {
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+    .first-paragraph a {
+        font-size: 23px;
+        width: 220px;
+        height: 70px;
+    }
+}
+   

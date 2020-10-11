@@ -1,0 +1,141 @@
+.paragraph-block{
+    
+    margin-left: 660px;
+}
+.search-data-paragraph img{
+    position: relative;
+    left:-380px;
+}
+.hours-access-paragraph img{
+    position: relative;
+    left:290px;
+    bottom:360px;
+}
+.print-out-paragraph img {
+    position: relative;
+    left:-420px;
+    top:-340px;
+}
+
+.security-code-paragraph img {
+    position: relative;
+    left:290px;
+    top:-700px;
+}
+
+/*@media screen and (max-width: 1366px) {
+    .paragraph-block{
+        margin-left: 150px;
+        margin-right: 70px;
+        width: 1500px;
+    }
+    .paragraph-block p {
+        font-weight: 200;
+        font-size: normal;
+        width: 220px;
+        line-height: 160%;
+        padding-bottom: 100px;
+        left: 200px;
+    }
+    .search-data-paragraph img:nth-of-type(3) {
+        position: absolute;
+        left: 590px;
+        top: 1720px;
+    }
+    
+    .search-data-paragraph img:nth-of-type(2) {
+        position: absolute;
+        left: 660px;
+        top: 1760px;
+    }
+    
+    .hours-access-paragraph img:nth-of-type(2) {
+        position: absolute;
+        top: 1900px;
+        left: 1350px;
+    }
+    
+    .print-out-paragraph img:nth-of-type(2) {
+        position: absolute;
+        top: 2145px;
+        left: 770px;
+    }
+    
+    .security-code-paragraph img:nth-of-type(2) {
+        position: absolute;
+        top: 2400px;
+        left: 1475px;
+    }
+    
+    .security-code-paragraph img:nth-of-type(3) {
+        position: absolute;
+        top: 2140px;
+        left: 1200px;
+    }
+    .print-out-paragraph img:first-child,
+    .search-data-paragraph img:first-child,
+    .security-code-paragraph img:first-child,
+    .hours-access-paragraph img:first-child{
+        left:-100px;
+        top:100px;
+    } 
+    .search-data-paragraph img:nth-of-type(4) {
+        top: -200px;
+        left: 100px;
+    }
+    
+    .search-data-paragraph img:nth-of-type(5) {
+        top: -192.8px;
+        left: 90px;
+    }
+    .search-data-paragraph a {
+        top: -195.8px;
+        left: 50px;
+    }
+    
+    .hours-access-paragraph img:nth-of-type(3) {
+        top: -154px;
+        left: 100px;
+    }
+    
+    .hours-access-paragraph img:nth-of-type(4) {
+        top: -147px;
+        left: 90px;
+    }
+    
+    .print-out-paragraph img:nth-of-type(3) {
+        top: -124px;
+        left: 100px;
+    }
+    
+    .print-out-paragraph img:nth-of-type(4) {
+        top: -116.8px;
+        left: 90px;
+    }
+    
+    .security-code-paragraph img:nth-of-type(4) {
+        top: -188px;
+        left: 90.5px;
+    }
+    
+    .security-code-paragraph img:nth-of-type(5) {
+        top: -180.8px;
+        left: 81px;
+    }
+    
+    .hours-access-paragraph a {
+        top: -150px;
+        left: 50px;
+    }
+    
+    .print-out-paragraph a {
+        top: -120px;
+        left: 50px;
+    }
+    
+    .security-code-paragraph a {
+        top: -185px;
+        left: 50px;
+    }
+    
+}

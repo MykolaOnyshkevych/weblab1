@@ -1,0 +1,49 @@
+@media screen and (min-width: 0px) {
+    .copyright {
+      color: #F8F9FA;
+  
+      font-family: 'Rubik', serif;
+      font-weight: bold;
+      font-size: 1rem;
+      line-height: 1.875rem;
+    }
+  
+    .lower-image {
+      height: 3.125rem;
+      width: 13.25rem;
+  
+      background-image: url(../img/logo.svg);
+    }
+  
+    .media {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+  
+      width: 10.625rem;
+      animation: floating 2.5s linear infinite;
+    }
+  
+    .media-button {
+      height: 36px;
+      width: 36px;
+    }
+  }
+
+  @media screen and (min-width: 0px) and (max-width: 768px) {
+    .copyright {
+      margin-bottom: 10px;
+
+      font-size: 0.75rem;
+    }
+
+    .media {
+      width: 15rem;
+      margin-top: 10px;
+    }
+  }
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    .copyright {
+      font-size: 0.75rem;
+    }
+  }

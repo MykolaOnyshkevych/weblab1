@@ -1,0 +1,132 @@
+
+
+  @media screen and (min-width: 0px) {
+    .clients-list {
+      display: flex;
+      justify-content: space-between;
+  
+      margin-top: 5%;
+    }
+  
+    .clients-list-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+  
+      height: 22.5rem;
+      width: 26.25rem;
+  
+      background-color: #FFFFFF;
+      border-radius: 0.625rem;
+      box-shadow: 0 1.25rem 2.5rem rgba(238, 77, 71, 0.1);
+    }
+  
+    .client-paragraph {
+      position: relative;
+  
+      margin: auto;
+      width: 20rem;
+  
+      color: #402B2B;
+  
+      font-family: 'Rubik', serif;
+      font-weight: 300;
+      font-size: 1rem;
+      line-height: 187%;
+    }
+  
+    .clients-inf {
+      position: relative;
+      display: flex;
+      align-items: center;
+      
+      max-height: 3.75rem;
+      width: 20rem;
+      margin: auto;
+    }
+  
+    .client-name {
+      margin-left: 1.25rem;
+  
+      color: #402B2B;
+  
+      font-family: 'Roboto', serif;
+      font-weight: bold;
+      font-size: 1rem;
+      line-height: 187%;
+    }
+  }
+
+
+  @media screen and (max-width: 1279px) {
+    .clients-list {
+      flex-direction: column;
+      width: 100%;
+      max-width: 120%;
+    }
+
+    .clients-list-content {
+      margin-bottom: 40px;
+    }
+
+    .client-paragraph {
+      max-width: 75%;
+      width: 75%;
+
+      text-align: justify;
+      text-justify: inter-word;
+    }
+
+    .clients-inf {
+      max-width: 75%;/**/
+      width: 75%;/**/
+    }
+  }
+
+
+  @media screen and (max-width: 480px) {
+    .clients-list-content {
+      width: 100%;
+      max-width: 100%;
+    }
+    
+    .clients h3 {
+      margin-bottom: 10px;
+    }
+
+    .clients h2 {
+      margin-bottom: 10px;
+    }
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 1279px) {
+    .clients-list {
+      justify-content: center;
+      align-items: center;
+
+      margin-top: 10%;
+    }
+
+    .clients-list-content {
+      width: 85%;
+      max-width: 85%;
+    }
+
+    .client-paragraph {
+      font-size: 1.4rem;
+    }
+
+    .client-name {
+      font-size: 1.5rem;
+    }
+
+    .clients h3 {
+      margin-bottom: 30px;
+    }
+  }
+  @media screen and (min-width: 1280px) {
+  }
+
+  @media screen and (min-width: 1900px) {
+  }

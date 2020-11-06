@@ -1,0 +1,14 @@
+
+@import 'globals.css';
+@import 'first-paragraph.css';
+@import 'header.css';
+@import 'block-paragraph.css';
+@import 'our-clients.css';
+@import 'footer.css';
+@import 'animation.css';
+
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto:wght@700&family=Rubik:wght@300;500;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+

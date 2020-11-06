@@ -1,0 +1,202 @@
+@media screen and (min-width: 0px) {
+  .first-paragraph {
+    margin: auto;
+    width: 71.25%;
+  }
+
+  .first-p-text {
+    width: 46.25rem;
+
+  }
+
+  .first-paragraph-button {
+    display: flex;
+    align-items: center;
+
+    height: 3.75rem;
+    margin: 0;
+    padding: 1rem 2.2rem;
+
+    letter-spacing: 5%;
+  }
+
+  .first-paragraph-button-str {
+    position: relative;
+
+    height: 0.75rem;
+    width: 1.8rem;
+    margin-left: 1.5rem;
+
+    background-image: url(../img/union.svg);
+  }
+  .car {
+    position: relative;
+
+    margin-top: 3.125rem;
+    margin-left: -12.5rem;
+  }
+  .car img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1279px) {
+  .first-paragraph-button {
+    margin-top: 10px;
+    padding: 2rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .first-paragraph {
+    width: 68%;
+  }
+
+  .first-p-text {
+    width: 40%;
+  }
+  .car {
+    margin-top: 4.5rem;
+  }
+
+.car img {
+    height: 251px;
+}
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 1279px) {
+  .first-p-text {
+    width: 100%;
+  }
+
+  .first-paragraph-button {
+    justify-content: center;
+    
+    width: 55%;
+  }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .first-paragraph {
+    width: 70%;
+  }
+
+  .first-p-text {
+    text-align: center;
+  }
+
+  .first-paragraph-button {
+    margin: auto;
+  }
+  .car {
+    margin-top: 6.25rem;
+    margin-left: -25.5rem;
+  }
+
+  .car img {
+  height: 350px;
+}
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+  .car {
+    margin-left: -28rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .first-paragraph {
+    
+    animation: down-fall 2.5s;
+  }
+}
+
+@keyframes down-fall {
+0% {
+          transform: translateY(-1000px);
+}
+100% {
+          transform: translateY(0);
+}
+}
+
+@media screen and (min-width: 1280px) {
+  .car {
+    margin-top: 1.75rem;
+    margin-left: -73rem;
+  }
+
+  .car img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1900px) and (max-width: 2559px) {
+  .first-paragraph {
+    width: 63%;
+  }
+
+  .first-p-text {
+    width: 80%;
+  }
+
+  .first-paragraph-button {
+    justify-content: center;
+    
+    font-size: 1.75rem;
+  }
+  .car {
+    margin-top: 0rem;
+    margin-left: -90rem;
+  }
+}
+
+@media screen and (width: 2560px) {
+  .first-paragraph {
+    width: 30%;
+  }
+
+  .first-p-text {
+    margin-top: -1.5rem;
+
+    width: 75%;
+  }
+
+  .first-paragraph-button {
+    justify-content: center;
+    
+    margin: auto;
+
+    font-size: 1.75rem;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .car {
+    margin-top: 7.25rem;
+  }
+
+  .car img {
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1279px) {
+  .car {
+      margin-left: -40rem;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (width: 2560px) {
+  .car  {
+    margin-top: -5rem;
+    margin-left: -80rem;
+  }
+}
